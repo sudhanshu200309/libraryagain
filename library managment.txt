@@ -1,0 +1,48 @@
+#include <stdio.h>
+int main() {
+//e library portal
+char LoginId[100];
+char Password[100];
+while(1){    printf("Welcome to the Login_System\n");
+printf("Please Enter your LoginID\n");
+gets(LoginId);
+printf("Please Enter your Password\n");
+gets(Password);
+if(strcmp(LoginId,"User")==0)
+{        if(strcmp(Password,"12345")==0)
+{            printf("Hey,You are Welcome\n");
+printf("\nSection 1\t-Science and technology");
+printf("\nSection 2\t- Art and Literature");
+printf("\nSection 3\t-Magazines, Children story books,Newspapers");   
+ int i,s,a,m;    
+printf("\nEnter the section no.:");    
+scanf("%d",&i);
+if(i==1){       
+ printf("Welcome to the section of Science and Technology");      
+  printf("\nEnter the code no. of the subject:");        scanf("%d",&s);       
+ switch(s){         
+   case 11:          
+  printf("Physics");      
+   break;           
+ case 12:           
+ printf("Chemistry");           
+ break;          
+  case 13:           
+ printf("Biology");            
+break;          
+  case 14:      
+      printf("Computers");          
+  break;     
+   }    } 
+else if(i==3){     
+   printf("Welcome to the section of Magazines,Children story books and Newspapers");    }    
+else    {     
+   printf("Invalid entry");   
+ }   
+       break;        }    }   
+ else{        printf("Try Again!!\n");    }    } 
+
+
+
+
+
